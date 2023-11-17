@@ -1,3 +1,7 @@
+<script>
+	import Link from '$lib/components/Link.svelte';
+</script>
+
 <header>
 	<nav>
 		<div class="px-4 py-6 font-tasa-orbiter-display font-medium">
@@ -11,12 +15,14 @@
 						<li><a href="">About</a></li>
 					</ul>
 				</div>
-        <div class="flex items-center">
-          <!-- TODO: Turn this into a component -->
-          <!-- TODO: Use font according to the design -->
-          <a href=''>Sign Up</a>
-          <button class="md:hiddem"><img src="/hamburger.svg" alt=""></button>
-        </div>
+				<div class="flex items-center">
+					<!-- TODO: Turn this into a component -->
+					<!-- TODO: Use font according to the design -->
+					<Link linkTo="#" theme="green" className="rounded-[4px] py-2 px-3 sm:py-3 sm:px-4"
+						>Sign Up</Link
+					>
+					<button class="md:hidden"><img src="/hamburger.svg" alt="" /></button>
+				</div>
 			</div>
 		</div>
 	</nav>

@@ -10,7 +10,15 @@ export default {
 				'nb-architekt': ['NB Architekt', ...defaultTheme.fontFamily.sans]
 			},
 			colors: {
-				'brand-black': '#0F0F0F'
+				'brand-black': '#0F0F0F',
+				'brand-light-green': '#25D0AB',
+				'brand-dark-green': '#04312C'
+			},
+			backgroundImage: {
+				grid: 'url(/bg-grid.svg)'
+			},
+			content: {
+				'shape-corner': 'url("/shape-corner.svg")'
 			}
 		}
 	},
