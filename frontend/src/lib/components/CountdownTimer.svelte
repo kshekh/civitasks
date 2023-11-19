@@ -80,7 +80,7 @@
 			<h2 class="font-tasa-orbiter-display font-semibold text-3xl md:text-4xl mb-8">
 				Colosseum’s next Hackathon starts on January 10, 2024.
 			</h2>
-			<Link linkTo="/signup" theme="default">Sign Up</Link>
+			<Link linkTo="/signup" theme="default" placement="">Sign Up</Link>
 		</div>
 	</div>
 </section>

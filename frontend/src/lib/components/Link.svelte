@@ -1,18 +1,16 @@
 <script>
-  export let theme;
-  export let linkTo;
+	export let theme;
+	export let linkTo;
+	export let placement;
 </script>
 
-{#if theme === 'green'}
-  <a
-    class={`font-nb-architekt uppercase bg-brand-dark-green text-brand-light-green rounded-[4px] py-2 px-4 sm:py-4 sm:px-7`}
-    href={linkTo}><slot /></a
-  >
-{/if}
-
-{#if theme === 'default'}
-  <a
-    class={`font-nb-architekt uppercase bg-slate-100 text-gray-800 rounded-[4px] py-2 px-4 sm:py-4 sm:px-7`}
-    href={linkTo}><slot /></a
-  >
-{/if}
+<a
+	class={`font-nb-architekt uppercase rounded-[4px] ${
+		theme === 'green' ? 'bg-brand-dark-green text-brand-light-green' : 'bg-slate-100 text-gray-800'
+	} ${
+		placement === 'header'
+			? 'pb-0.5 pt-1 px-4 md:pb-2 md:pt-2.5 md:px-4'
+			: 'pb-2 pt-2.5 px-4 md:pb-4 md:pt-[18px] md:px-7'
+	}`}
+	href={linkTo}><slot /></a
+>
