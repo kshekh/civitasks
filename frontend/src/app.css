@@ -3,44 +3,39 @@
 @tailwind utilities;
 
 @layer base {
-	@font-face {
-		font-family: 'TASA Orbiter Display';
-		src: url('/fonts/TASAOrbiterDisplay-Regular.woff') format('woff');
-		font-weight: 400;
-	}
-	@font-face {
-		font-family: 'TASA Orbiter Display';
-		src: url('/fonts/TASAOrbiterDisplay-Medium.woff') format('woff');
-		font-weight: 500;
-	}
-	@font-face {
-		font-family: 'TASA Orbiter Display';
-		src: url('/fonts/TASAOrbiterDisplay-SemiBold.woff') format('woff');
-		font-weight: 600;
-	}
-	@font-face {
-		font-family: 'TASA Orbiter Display';
-		src: url('/fonts/TASAOrbiterDisplay-Bold.woff') format('woff');
-		font-weight: 700;
-	}
-	@font-face {
-		font-family: 'TASA Orbiter Display';
-		src: url('/fonts/TASAOrbiterDisplay-Black.woff') format('woff');
-		font-weight: 900;
-	}
-	/* @font-face {
-		font-family: 'NB Architekt';
-		src: url('/fonts/NBArchitektStd-Light.otf') format('otf');
-		font-weight: 300;
-	} */
-	@font-face {
-		font-family: 'NB Architekt';
-		src: url('/fonts/NBArchitektStd-Regular.otf') format('otf');
-		font-weight: 400;
-	}
-	/* @font-face {
-		font-family: 'NB Architekt';
-		src: url('/fonts/NBArchitektStd-Bold.otf') format('otf');
-		font-weight: 700;
-	} */
+  @font-face {
+    font-family: 'TASA Orbiter Display';
+    src: url('/fonts/TASAOrbiterDisplay-Regular.woff') format('woff');
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: 'TASA Orbiter Display';
+    src: url('/fonts/TASAOrbiterDisplay-Medium.woff') format('woff');
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: 'TASA Orbiter Display';
+    src: url('/fonts/TASAOrbiterDisplay-SemiBold.woff') format('woff');
+    font-weight: 600;
+  }
+  @font-face {
+    font-family: 'TASA Orbiter Display';
+    src: url('/fonts/TASAOrbiterDisplay-Bold.woff') format('woff');
+    font-weight: 700;
+  }
+  @font-face {
+    font-family: 'TASA Orbiter Display';
+    src: url('/fonts/TASAOrbiterDisplay-Black.woff') format('woff');
+    font-weight: 900;
+  }
+  @font-face {
+    font-family: 'NB Architekt';
+    src: url('/fonts/nb-architekt-light.otf') format('opentype');
+    font-weight: 300;
+  }
+  @font-face {
+    font-family: 'NB Architekt';
+    src: url('/fonts/nb-architekt-regular.otf') format('opentype');
+    font-weight: 400;
+  }
 }
