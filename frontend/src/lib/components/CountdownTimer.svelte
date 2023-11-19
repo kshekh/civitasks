@@ -35,9 +35,9 @@
 
 <section>
 	<!-- TODO: add icons -->
-	<div class="text-center mb-56 md:mb-40">
+	<div class="text-center mb-56 md:mb-40 bg-grid bg-center bg-no-repeat bg-[size:50%]">
 		<div
-			class="font-nb-architekt flex items-center justify-center gap-8 md:gap-12 mb-8 md:mb-12 text-5xl uppercase text-center"
+			class="font-nb-architekt flex items-center justify-center gap-4 md:gap-12 mb-8 md:mb-12 text-5xl uppercase text-center"
 		>
 			<!-- days -->
 			<div>
@@ -76,8 +76,12 @@
 				</p>
 			</div>
 		</div>
-		<div class="max-w-xs md:max-w-lg mx-auto">
-			<h2 class="font-tasa-orbiter-display font-semibold text-3xl md:text-4xl mb-8">
+		<div
+			class="relative xl:before:absolute xl:before:content-[url(/element-plus-detail-two.svg)] xl:before:bottom-0 xl:before:left-20 xl:after:absolute xl:after:content-[url(/icon-trophy.svg)] xl:after:-top-14 xl:after:right-40"
+		>
+			<h2
+				class="max-w-xs md:max-w-lg mx-auto font-tasa-orbiter-display font-semibold text-3xl md:text-4xl mb-8"
+			>
 				Colosseum’s next Hackathon starts on January 10, 2024.
 			</h2>
 			<Link linkTo="/signup" theme="default" placement="">Sign Up</Link>

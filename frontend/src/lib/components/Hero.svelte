@@ -20,7 +20,7 @@
 				</p>
 			</div>
 		</div>
-		<div class="flex items-center justify-center gap-4 mb-12">
+		<div class="flex items-center justify-center gap-4 mb-1 md:mb-12">
 			<div>
 				<Link linkTo="/signup" theme="green" placement="">Sign Up</Link>
 			</div>
