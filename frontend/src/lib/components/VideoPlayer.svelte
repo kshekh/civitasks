@@ -1,1 +1,42 @@
-<div class="text-center h-[25vh]">Video component here</div>
+<script>
+	import { onMount } from 'svelte';
+
+	let video;
+	let playing = false;
+	let videoSource = '/sample-video.mp4';
+	let videoPoster = '/sample-video-placeholder-image.jpg';
+
+	onMount(() => {
+		video.onplay = () => (playing = true);
+		video.onpause = () => (playing = false);
+	});
+
+	function togglePlayPause() {
+		if (video.paused) {
+			video.play();
+		} else {
+			video.pause();
+		}
+	}
+</script>
+
+<div class="px-6">
+	<!-- TODO: add linear gradient -->
+	<div
+		class="-translate-y-8 md:-translate-y-24 border border-gray-700 rounded-lg relative before:absolute before:-inset-1.5 before:border before:border-gray-800 before:rounded-lg aspect-video max-w-4xl w-full mx-auto"
+	>
+		<video
+			poster={videoPoster}
+			bind:this={video}
+			src={videoSource}
+			class="rounded-2xl aspect-video w-full"
+			on:click={togglePlayPause}
+		></video>
+		<div
+			class="absolute z-10 top-0 left-0 w-full h-full flex items-center justify-center cursor-pointer"
+			on:click={togglePlayPause}
+		>
+			<img class={`${playing ? 'hidden' : ''}`} src="/icon-play-button.svg" alt="" />
+		</div>
+	</div>
+</div>
