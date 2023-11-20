@@ -2,7 +2,7 @@
 	import { onMount } from 'svelte';
 	import Link from '$lib/components/Link.svelte';
 
-	let countDownDate;
+	let countdownTo = '2024-01-09 23:59:59';
 	let now;
 	let distance;
 	let days = '00';
@@ -11,10 +11,10 @@
 	let seconds = '00';
 
 	onMount(() => {
-		countDownDate = new Date('2024-01-09 23:59:59').getTime();
+		const countdownToDate = new Date(countdownTo).getTime();
 		const interval = setInterval(() => {
 			now = new Date().getTime();
-			distance = countDownDate - now;
+			distance = countdownToDate - now;
 			days = String(Math.floor(distance / (1000 * 60 * 60 * 24))).padStart(2, '0');
 			hours = String(Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))).padStart(
 				2,
@@ -34,7 +34,6 @@
 </script>
 
 <section>
-	<!-- TODO: add icons -->
 	<div
 		class="text-center mb-56 md:mb-40 bg-grid bg-center bg-no-repeat bg-[size:175%] md:bg-[size:75%]"
 	>

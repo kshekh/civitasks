@@ -3,7 +3,6 @@
 </script>
 
 <section>
-	<!-- TODO: add bg image -->
 	<div
 		class="font-tasa-orbiter-display text-center px-6 pt-14 md:pt-32 bg-grid bg-no-repeat bg-contain bg-top md:bg-[50%_-18rem] relative"
 	>
