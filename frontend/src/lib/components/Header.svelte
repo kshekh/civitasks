@@ -42,10 +42,30 @@
 									showNav ? 'flex' : 'hidden'
 								} border-t border-gray-900 md:border-none flex-col w-full p-6 md:p-0 bg-brand-black md:flex md:w-auto md:flex-row md:items-center gap-8 md:gap-8`}
 							>
-								<li><a class="block" href="/#">Hackathon</a></li>
-								<li><a class="block" href="/#">Accelerator</a></li>
-								<li><a class="block" href="/#">Find Cofounders</a></li>
-								<li><a class="block" href="/#">About</a></li>
+								<li>
+									<a
+										class="block hover:text-brand-light-green focus-within:text-brand-light-green transition-colors duration-300"
+										href="/#">Hackathon</a
+									>
+								</li>
+								<li>
+									<a
+										class="block hover:text-brand-light-green focus-within:text-brand-light-green transition-colors duration-300"
+										href="/#">Accelerator</a
+									>
+								</li>
+								<li>
+									<a
+										class="block hover:text-brand-light-green focus-within:text-brand-light-green transition-colors duration-300"
+										href="/#">Find Cofounders</a
+									>
+								</li>
+								<li>
+									<a
+										class="block hover:text-brand-light-green focus-within:text-brand-light-green transition-colors duration-300"
+										href="/#">About</a
+									>
+								</li>
 							</ul>
 						</div>
 						<div
