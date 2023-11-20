@@ -35,7 +35,9 @@
 
 <section>
 	<!-- TODO: add icons -->
-	<div class="text-center mb-56 md:mb-40 bg-grid bg-center bg-no-repeat bg-[size:50%]">
+	<div
+		class="text-center mb-56 md:mb-40 bg-grid bg-center bg-no-repeat bg-[size:175%] md:bg-[size:75%]"
+	>
 		<div
 			class="font-nb-architekt flex items-center justify-center gap-4 md:gap-12 mb-8 md:mb-12 text-5xl uppercase text-center"
 		>
@@ -47,7 +49,7 @@
 			</div>
 			<div>
 				<img class="hidden md:block -translate-y-2" src="/element-timer-bar.svg" alt="" />
-				<span class="block md:hidden -translate-y-4">:</span>
+				<span class="block md:hidden -translate-y-4 text-gray-400">:</span>
 			</div>
 			<!-- hours -->
 			<div>
@@ -57,7 +59,7 @@
 			</div>
 			<div>
 				<img class="hidden md:block -translate-y-2" src="/element-timer-bar.svg" alt="" />
-				<span class="block md:hidden -translate-y-4">:</span>
+				<span class="block md:hidden -translate-y-4 text-gray-400">:</span>
 			</div>
 			<!-- minutes -->
 			<div>
@@ -67,7 +69,7 @@
 			</div>
 			<div class="hidden md:block">
 				<img class="hidden md:block -translate-y-2" src="/element-timer-bar.svg" alt="" />
-				<span class="block md:hidden -translate-y-4">:</span>
+				<span class="block md:hidden -translate-y-4 text-gray-400">:</span>
 			</div>
 			<!-- seconds -->
 			<div class="hidden md:block">
@@ -77,7 +79,7 @@
 			</div>
 		</div>
 		<div
-			class="relative xl:before:absolute xl:before:content-[url(/element-plus-detail-two.svg)] xl:before:bottom-0 xl:before:left-20 xl:after:absolute xl:after:content-[url(/icon-trophy.svg)] xl:after:-top-14 xl:after:right-40"
+			class="relative before:absolute before:content-[url(/element-plus-detail-two.svg)] before:-bottom-32 before:left-0 before:right-0 xl:before:bottom-0 xl:before:left-20 xl:before:right-auto xl:after:absolute xl:after:content-[url(/icon-trophy.svg)] xl:after:-top-14 xl:after:right-40"
 		>
 			<h2
 				class="max-w-xs md:max-w-lg mx-auto font-tasa-orbiter-display font-semibold text-3xl md:text-4xl mb-8"

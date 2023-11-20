@@ -9,7 +9,7 @@
 	>
 		<div class="">
 			<h1 class="uppercase font-bold text-6xl md:text-9xl mb-10 md:mb-2">Enter the Arena</h1>
-			<div class="max-w-[938px] mx-auto text-lg mb-10">
+			<div class="max-w-[938px] mx-auto text-base md:text-lg mb-10">
 				<p>
 					Claim your place in the next generation of online hackathons.<br
 						class="hidden sm:block"
