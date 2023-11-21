@@ -23,7 +23,7 @@
 <div class="px-6">
 	<!-- TODO: add linear gradient -->
 	<div
-		class="-translate-y-8 md:-translate-y-24 border border-gray-700 rounded-lg relative before:absolute before:-inset-1.5 before:border before:border-gray-800 before:rounded-lg aspect-video max-w-4xl w-full mx-auto"
+		class="-translate-y-8 md:-translate-y-24 border-2 border-gray-7 rounded-lg relative before:absolute before:-inset-1.5 before:border before:border-gray-8 before:rounded-lg aspect-video max-w-4xl w-full mx-auto"
 	>
 		<video
 			poster={videoPoster}

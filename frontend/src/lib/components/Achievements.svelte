@@ -7,7 +7,7 @@
 </script>
 
 <section>
-	<div class="text-center px-6 text-gray-200">
+	<div class="text-center px-6 text-gray-1">
 		<div class="relative">
 			<img class="mx-auto pt-20 md:pt-0" src="/image-person-one.png" alt="" />
 			<div class="absolute top-1/2 -translate-y-1/2 -translate-x-1/2 left-1/2 max-w-3xl w-full">
@@ -23,14 +23,14 @@
 					<ul
 						class="font-nb-architekt uppercase grid md:grid-cols-3 items-center gap-y-10 md:gap-y-0 md:gap-x-8 mb-32 md:mb-0"
 					>
-						<li>
+						<li class="text-gray-2">
 							<span class="text-5xl">{formattedNumber(builders)}+<br /></span>builders
 						</li>
-						<li class="">
+						<li class="text-gray-2">
 							<span class="text-5xl">{formattedNumber(productsLaunched)}+<br /></span>products
 							launched
 						</li>
-						<li>
+						<li class="text-gray-2">
 							<span class="text-5xl">${amountRaised}M+<br /></span>million raised by winners
 						</li>
 					</ul>

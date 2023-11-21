@@ -7,7 +7,7 @@
 </script>
 
 <section>
-	<div class="text-gray-200 max-w-6xl mx-auto px-6 sm:mb-24 md:mb-48">
+	<div class="text-gray-1 max-w-6xl mx-auto px-6 sm:mb-24 md:mb-48">
 		<div class="mb-20 md:mb-10">
 			<img class="mb-8" src="/element-plus-detail-one.svg" alt="" />
 			<div class="flex items-center justify-between relative isolate">

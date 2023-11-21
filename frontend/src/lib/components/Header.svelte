@@ -40,29 +40,29 @@
 							<ul
 								class={`${
 									showNav ? 'flex' : 'hidden'
-								} border-t border-gray-900 text-gray-300 md:border-none flex-col w-full p-6 md:p-0 bg-brand-black md:flex md:w-auto md:flex-row md:items-center gap-8 md:gap-8`}
+								} border-t border-gray-1000 text-gray-3 md:border-none flex-col w-full p-6 md:p-0 bg-gray-11 md:flex md:w-auto md:flex-row md:items-center gap-8 md:gap-8`}
 							>
 								<li>
 									<a
-										class="block hover:text-brand-light-green focus-within:text-brand-light-green transition-colors duration-300"
+										class="block hover:text-green-1 focus-within:text-green-1 transition-colors ease-in-out duration-300"
 										href="/#">Hackathon</a
 									>
 								</li>
 								<li>
 									<a
-										class="block hover:text-brand-light-green focus-within:text-brand-light-green transition-colors duration-300"
+										class="block hover:text-green-1 focus-within:text-green-1 transition-colors ease-in-out duration-300"
 										href="/#">Accelerator</a
 									>
 								</li>
 								<li>
 									<a
-										class="block hover:text-brand-light-green focus-within:text-brand-light-green transition-colors duration-300"
+										class="block hover:text-green-1 focus-within:text-green-1 transition-colors ease-in-out duration-300"
 										href="/#">Find Cofounders</a
 									>
 								</li>
 								<li>
 									<a
-										class="block hover:text-brand-light-green focus-within:text-brand-light-green transition-colors duration-300"
+										class="block hover:text-green-1 focus-within:text-green-1 transition-colors ease-in-out duration-300"
 										href="/#">About</a
 									>
 								</li>
@@ -91,9 +91,13 @@
 					</div>
 				</div>
 				<div class="flex items-center gap-2">
-					<Link linkTo="/signup" theme="green" placement="header">Sign Up</Link>
+					<Link linkTo="/#" theme="green" placement="header">Sign Up</Link>
 					<button class="md:hidden" on:click={() => (showNav = !showNav)}
-						><img src={`${showNav ? '/close.svg' : '/hamburger.svg'}`} alt="" /></button
+						><img
+							class="h-10"
+							src={`${showNav ? '/close.svg' : '/hamburger.svg'}`}
+							alt=""
+						/></button
 					>
 				</div>
 			</div>

@@ -35,7 +35,7 @@
 
 <section>
 	<div
-		class="text-gray-200 text-center mb-56 md:mb-40 bg-grid bg-center bg-no-repeat bg-[size:175%] md:bg-[size:75%]"
+		class="text-gray-1 text-center mb-56 md:mb-40 bg-grid bg-center bg-no-repeat bg-[size:175%] md:bg-[size:75%]"
 	>
 		<div
 			class="font-nb-architekt flex items-center justify-center gap-4 md:gap-12 mb-8 md:mb-12 text-5xl uppercase text-center"
@@ -43,7 +43,7 @@
 			<!-- days -->
 			<div>
 				<p class="flex flex-col items-center">
-					{days}<br /><span class="text-base">days</span>
+					{days}<br /><span class="text-base text-gray-2">days</span>
 				</p>
 			</div>
 			<div>
@@ -53,7 +53,7 @@
 			<!-- hours -->
 			<div>
 				<p class="flex flex-col items-center">
-					{hours}<br /><span class="text-base">hours</span>
+					{hours}<br /><span class="text-base text-gray-2">hours</span>
 				</p>
 			</div>
 			<div>
@@ -63,7 +63,7 @@
 			<!-- minutes -->
 			<div>
 				<p class="flex flex-col items-center">
-					{minutes}<br /><span class="text-base">mins</span>
+					{minutes}<br /><span class="text-base text-gray-2">mins</span>
 				</p>
 			</div>
 			<div class="hidden md:block">
@@ -73,7 +73,7 @@
 			<!-- seconds -->
 			<div class="hidden md:block">
 				<p class="flex flex-col items-center">
-					{seconds}<br /><span class="text-base">secs</span>
+					{seconds}<br /><span class="text-base text-gray-2">secs</span>
 				</p>
 			</div>
 		</div>
@@ -85,7 +85,7 @@
 			>
 				Colosseum’s next Hackathon starts on January 10, 2024.
 			</h2>
-			<Link linkTo="/signup" theme="default" placement="">Sign Up</Link>
+			<Link linkTo="/#" theme="default" placement="">Sign Up</Link>
 		</div>
 	</div>
 </section>

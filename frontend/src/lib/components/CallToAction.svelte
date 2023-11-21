@@ -9,20 +9,20 @@
 		<div
 			class="flex flex-col gap-10 relative z-10 bg-[url(/image-person-two.png)] bg-no-repeat bg-center bg-contain pt-[500px] md:bg-none md:pt-0"
 		>
-			<h2 class=" text-gray-200 text-5xl md:text-8xl uppercase font-bold">
+			<h2 class=" text-gray-1 text-5xl md:text-8xl uppercase font-bold">
 				Join Colosseum's Community
 			</h2>
-			<p class="text-gray-300 max-w-xl">
+			<p class="text-gray-2 max-w-xl">
 				Colosseum runs 3 online hackathons per year, each followed by an Accelerator cohort. Sign up
 				for a Colosseum account, create a builder profile, search the directory to find cofounders,
 				and jam on product ideas in the forum before the next Hackathon.
 			</p>
 			<div class="flex items-center gap-4">
 				<div>
-					<Link linkTo="/signup" theme="green" placement="">Sign Up</Link>
+					<Link linkTo="/#" theme="green" placement="">Sign Up</Link>
 				</div>
 				<div>
-					<Link linkTo="/signin" theme="" placement="">Sign In</Link>
+					<Link linkTo="/#" theme="" placement="">Sign In</Link>
 				</div>
 			</div>
 		</div>
