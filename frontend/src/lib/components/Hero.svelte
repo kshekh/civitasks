@@ -4,7 +4,7 @@
 
 <section>
 	<div
-		class="font-tasa-orbiter-display text-center px-6 pt-14 md:pt-32 bg-grid bg-no-repeat bg-contain bg-top md:bg-[50%_-18rem] relative"
+		class="font-tasa-orbiter-display text-center px-6 pt-14 md:pt-32 bg-[url(/bg-grid-two.png)] bg-no-repeat bg-[size:250%] md:bg-contain bg-[50%_-50%] md:bg-[50%_-44%] relative"
 	>
 		<div class="">
 			<h1 class="text-gray-1 uppercase font-bold text-6xl md:text-9xl mb-10 md:mb-2">

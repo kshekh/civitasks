@@ -2,7 +2,6 @@
 	export let testimonial;
 </script>
 
-<!-- TODO: add double borders -->
 {#if testimonial}
 	<article
 		class="border border-gray-8 outline outline-2 -outline-offset-[6px] outline-gray-9 hover:outline-none rounded-lg relative opacity-80 hover:opacity-100 hover:border-gray-7 hover:after:absolute hover:after:inset-1 hover:after:border hover:after:border-gray-8 hover:after:rounded-lg px-6 py-8 max-w-3xl md:max-w-full"

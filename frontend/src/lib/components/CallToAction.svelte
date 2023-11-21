@@ -4,7 +4,7 @@
 
 <section>
 	<div
-		class="px-6 grid md:grid-cols-2 items-center max-w-7xl mx-auto font-tasa-orbiter-display text-lg mb-72 bg-grid md:bg-[position:25%_150%] bg-no-repeat md:bg-[size:66%]"
+		class="px-6 grid md:grid-cols-2 items-center max-w-7xl mx-auto font-tasa-orbiter-display text-lg mb-72 md:bg-grid md:bg-no-repeat md:bg-[position:25%_150%] md:bg-[size:66%]"
 	>
 		<div
 			class="flex flex-col gap-10 relative z-10 bg-[url(/image-person-two.png)] bg-no-repeat bg-center bg-contain pt-[500px] md:bg-none md:pt-0"
