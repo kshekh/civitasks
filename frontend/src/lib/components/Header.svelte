@@ -1,5 +1,6 @@
 <script>
 	import { onMount } from 'svelte';
+	import { slide } from 'svelte/transition';
 	import Link from '$lib/components/Link.svelte';
 
 	let showNav = false;
@@ -37,36 +38,39 @@
 					>
 					<div class="absolute z-10 top-[88px] left-0 right-0 md:static">
 						<div class="relative">
-							<ul
-								class={`${
-									showNav ? 'flex' : 'hidden'
-								} border-t border-gray-1000 text-gray-3 md:border-none flex-col w-full p-6 md:p-0 bg-gray-11 md:flex md:w-auto md:flex-row md:items-center gap-8 md:gap-8`}
-							>
-								<li>
-									<a
-										class="block hover:text-green-1 focus-within:text-green-1 transition-colors ease-in-out duration-300"
-										href="/#">Hackathon</a
-									>
-								</li>
-								<li>
-									<a
-										class="block hover:text-green-1 focus-within:text-green-1 transition-colors ease-in-out duration-300"
-										href="/#">Accelerator</a
-									>
-								</li>
-								<li>
-									<a
-										class="block hover:text-green-1 focus-within:text-green-1 transition-colors ease-in-out duration-300"
-										href="/#">Find Cofounders</a
-									>
-								</li>
-								<li>
-									<a
-										class="block hover:text-green-1 focus-within:text-green-1 transition-colors ease-in-out duration-300"
-										href="/#">About</a
-									>
-								</li>
-							</ul>
+							{#if showNav}
+								<ul
+									transition:slide
+									class={`${
+										showNav ? 'flex' : 'hidden'
+									} border-y border-gray-7 text-gray-3 md:border-none flex-col w-full p-6 md:p-0 bg-gray-11 md:flex md:w-auto md:flex-row md:items-center gap-8 md:gap-8`}
+								>
+									<li>
+										<a
+											class="block hover:text-green-1 focus-within:text-green-1 transition-colors ease-in-out duration-300"
+											href="/#">Hackathon</a
+										>
+									</li>
+									<li>
+										<a
+											class="block hover:text-green-1 focus-within:text-green-1 transition-colors ease-in-out duration-300"
+											href="/#">Accelerator</a
+										>
+									</li>
+									<li>
+										<a
+											class="block hover:text-green-1 focus-within:text-green-1 transition-colors ease-in-out duration-300"
+											href="/#">Find Cofounders</a
+										>
+									</li>
+									<li>
+										<a
+											class="block hover:text-green-1 focus-within:text-green-1 transition-colors ease-in-out duration-300"
+											href="/#">About</a
+										>
+									</li>
+								</ul>
+							{/if}
 						</div>
 						<div
 							class={`${
