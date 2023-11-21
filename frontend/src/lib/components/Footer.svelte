@@ -3,7 +3,7 @@
 	<!-- TODO: Update font family -->
 	<!-- TODO: Look into responsiveness -->
 	<div
-		class="flex flex-col md:flex-row gap-10 md:gap-0 items-start justify-between max-w-6xl mx-auto text-sm px-6 py-20 md:pt-36 md:pb-20"
+		class="flex flex-col md:flex-row gap-10 md:gap-0 items-start justify-between max-w-6xl mx-auto text-sm px-6 py-20 md:pt-36 md:pb-20 text-gray-200"
 	>
 		<div>
 			<div class="mb-6 md:mb-20">
@@ -18,7 +18,7 @@
 		</div>
 		<div class="grid grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-16 md:gap-y-0 md:gap-x-12">
 			<div>
-				<h2 class="mb-6 md:mb-8">Programs</h2>
+				<h2 class="text-gray-400 mb-6 md:mb-8">Programs</h2>
 				<ul class="grid gap-4">
 					<li>
 						<a
@@ -35,7 +35,7 @@
 				</ul>
 			</div>
 			<div>
-				<h2 class="mb-6 md:mb-8">Get Started</h2>
+				<h2 class="text-gray-400 mb-6 md:mb-8">Get Started</h2>
 				<ul class="grid gap-4">
 					<li>
 						<a
@@ -64,7 +64,7 @@
 				</ul>
 			</div>
 			<div>
-				<h2 class="mb-6 md:mb-8">Organization</h2>
+				<h2 class="text-gray-400 mb-6 md:mb-8">Organization</h2>
 				<ul class="grid gap-4">
 					<li>
 						<a
@@ -93,7 +93,7 @@
 				</ul>
 			</div>
 			<div>
-				<h2 class="mb-6 md:mb-8">Legal</h2>
+				<h2 class="text-gray-400 mb-6 md:mb-8">Legal</h2>
 				<ul class="grid gap-4">
 					<li>
 						<a

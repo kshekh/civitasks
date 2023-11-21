@@ -40,7 +40,7 @@
 							<ul
 								class={`${
 									showNav ? 'flex' : 'hidden'
-								} border-t border-gray-900 md:border-none flex-col w-full p-6 md:p-0 bg-brand-black md:flex md:w-auto md:flex-row md:items-center gap-8 md:gap-8`}
+								} border-t border-gray-900 text-gray-300 md:border-none flex-col w-full p-6 md:p-0 bg-brand-black md:flex md:w-auto md:flex-row md:items-center gap-8 md:gap-8`}
 							>
 								<li>
 									<a

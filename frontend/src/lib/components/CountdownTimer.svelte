@@ -35,7 +35,7 @@
 
 <section>
 	<div
-		class="text-center mb-56 md:mb-40 bg-grid bg-center bg-no-repeat bg-[size:175%] md:bg-[size:75%]"
+		class="text-gray-200 text-center mb-56 md:mb-40 bg-grid bg-center bg-no-repeat bg-[size:175%] md:bg-[size:75%]"
 	>
 		<div
 			class="font-nb-architekt flex items-center justify-center gap-4 md:gap-12 mb-8 md:mb-12 text-5xl uppercase text-center"

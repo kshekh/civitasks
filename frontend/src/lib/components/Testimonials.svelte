@@ -13,7 +13,7 @@
 				<img src="/shape-pillar-one.png" alt="" />
 			</div>
 			<div class="flex-1 w-full">
-				<h2 class="text-4xl md:text-5xl font-semibold text-center mb-12">
+				<h2 class="text-gray-200 text-4xl md:text-5xl font-semibold text-center mb-12">
 					What the Crypto Community is Saying
 				</h2>
 				<div class="hidden md:block">

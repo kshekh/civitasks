@@ -7,7 +7,7 @@
 </script>
 
 <section>
-	<div class="text-center px-6">
+	<div class="text-center px-6 text-gray-200">
 		<div class="relative">
 			<img class="mx-auto pt-20 md:pt-0" src="/image-person-one.png" alt="" />
 			<div class="absolute top-1/2 -translate-y-1/2 -translate-x-1/2 left-1/2 max-w-3xl w-full">
