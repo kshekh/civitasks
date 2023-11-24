@@ -37,12 +37,41 @@
 						/></a
 					>
 					<div class="absolute z-10 top-[88px] left-0 right-0 md:static">
-						{#if showMobileNav}
-							<div transition:slide class="relative">
+						<div class="relative">
+							<ul
+								class={`hidden md:flex md:w-auto md:flex-row md:items-center md:gap-8 text-gray-3 w-full md:p-0 bg-gray-11`}
+							>
+								<li>
+									<a
+										class="block hover:text-green-1 focus-within:text-green-1 transition-colors ease-in-out duration-300"
+										href="/#">Hackathon</a
+									>
+								</li>
+								<li>
+									<a
+										class="block hover:text-green-1 focus-within:text-green-1 transition-colors ease-in-out duration-300"
+										href="/#">Accelerator</a
+									>
+								</li>
+								<li>
+									<a
+										class="block hover:text-green-1 focus-within:text-green-1 transition-colors ease-in-out duration-300"
+										href="/#">Find Cofounders</a
+									>
+								</li>
+								<li>
+									<a
+										class="block hover:text-green-1 focus-within:text-green-1 transition-colors ease-in-out duration-300"
+										href="/#">About</a
+									>
+								</li>
+							</ul>
+							{#if showMobileNav}
 								<ul
+									transition:slide
 									class={`${
 										showMobileNav ? 'flex' : 'hidden'
-									} border-y border-gray-7 text-gray-3 md:border-none flex-col w-full p-6 md:p-0 bg-gray-11 md:flex md:w-auto md:flex-row md:items-center gap-8 md:gap-8`}
+									} border-y border-gray-7 text-gray-3 flex-col w-full p-6 bg-gray-11 gap-8`}
 								>
 									<li>
 										<a
@@ -69,8 +98,8 @@
 										>
 									</li>
 								</ul>
-							</div>
-						{/if}
+							{/if}
+						</div>
 						<div
 							class={`${
 								showMobileNav ? 'absolute top-0 left-0 w-1 aspect-square bg-gray-500 md:hidden' : ''
