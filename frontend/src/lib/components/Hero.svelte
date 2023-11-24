@@ -32,7 +32,7 @@
 		</div>
 		<!-- add icons over image -->
 		<div class="max-w-4xl mx-auto">
-			<img src="/image_colosseum.png" alt="" />
+			<img class="translate-x-1 md:translate-x-8" src="/image_colosseum.png" alt="" />
 		</div>
 		<img class="hidden xl:block absolute top-1/2 left-1/4" src="/icon-trophy.svg" alt="" />
 		<img class="hidden xl:block absolute bottom-1/4 left-[40%]" src="/icon-solana.svg" alt="" />
