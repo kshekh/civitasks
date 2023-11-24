@@ -3,16 +3,14 @@
 	import { slide } from 'svelte/transition';
 	import Link from '$lib/components/Link.svelte';
 
-	let showNav = true;
+	let showMobileNav = false;
 
 	onMount(() => {
 		const mediaQuery = window.matchMedia('(min-width: 768px)');
 
 		const handleWidthChange = (e) => {
-			if (!e.matches) {
-				showNav = false;
-			} else {
-				showNav = true;
+			if (e.matches) {
+				showMobileNav = false;
 			}
 		};
 
@@ -39,12 +37,11 @@
 						/></a
 					>
 					<div class="absolute z-10 top-[88px] left-0 right-0 md:static">
-						<div class="relative">
-							{#if showNav}
+						{#if showMobileNav}
+							<div transition:slide class="relative">
 								<ul
-									transition:slide
 									class={`${
-										showNav ? 'flex' : 'hidden'
+										showMobileNav ? 'flex' : 'hidden'
 									} border-y border-gray-7 text-gray-3 md:border-none flex-col w-full p-6 md:p-0 bg-gray-11 md:flex md:w-auto md:flex-row md:items-center gap-8 md:gap-8`}
 								>
 									<li>
@@ -72,34 +69,43 @@
 										>
 									</li>
 								</ul>
-							{/if}
-						</div>
+							</div>
+						{/if}
 						<div
 							class={`${
-								showNav ? 'absolute top-0 left-0 w-1 aspect-square bg-gray-500 sm:hidden' : ''
+								showMobileNav ? 'absolute top-0 left-0 w-1 aspect-square bg-gray-500 md:hidden' : ''
 							}`}
 						></div>
 						<div
 							class={`${
-								showNav ? 'absolute top-0 right-0 w-1 aspect-square bg-gray-500 sm:hidden' : ''
+								showMobileNav
+									? 'absolute top-0 right-0 w-1 aspect-square bg-gray-500 md:hidden'
+									: ''
 							}`}
 						></div>
 						<div
 							class={`${
-								showNav ? 'absolute bottom-0 left-0 w-1 aspect-square bg-gray-500 sm:hidden' : ''
+								showMobileNav
+									? 'absolute bottom-0 left-0 w-1 aspect-square bg-gray-500 md:hidden'
+									: ''
 							}`}
 						></div>
 						<div
 							class={`${
-								showNav ? 'absolute bottom-0 right-0 w-1 aspect-square bg-gray-500 sm:hidden' : ''
+								showMobileNav
+									? 'absolute bottom-0 right-0 w-1 aspect-square bg-gray-500 md:hidden'
+									: ''
 							}`}
 						></div>
 					</div>
 				</div>
 				<div class="flex items-center gap-2">
 					<Link linkTo="/#" theme="green" placement="header">Sign Up</Link>
-					<button class="md:hidden" on:click={() => (showNav = !showNav)}
-						><img src={`${showNav ? '/close.svg' : '/hamburger.svg'}`} alt="" /></button
+					<button
+						class="md:hidden"
+						on:click={() => {
+							showMobileNav = !showMobileNav;
+						}}><img src={`${showMobileNav ? '/close.svg' : '/hamburger.svg'}`} alt="" /></button
 					>
 				</div>
 			</div>
