@@ -99,11 +99,7 @@
 				<div class="flex items-center gap-2">
 					<Link linkTo="/#" theme="green" placement="header">Sign Up</Link>
 					<button class="md:hidden" on:click={() => (showNav = !showNav)}
-						><img
-							class="h-10"
-							src={`${showNav ? '/close.svg' : '/hamburger.svg'}`}
-							alt=""
-						/></button
+						><img src={`${showNav ? '/close.svg' : '/hamburger.svg'}`} alt="" /></button
 					>
 				</div>
 			</div>
