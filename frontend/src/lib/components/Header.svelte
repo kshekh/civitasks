@@ -3,14 +3,16 @@
 	import { slide } from 'svelte/transition';
 	import Link from '$lib/components/Link.svelte';
 
-	let showNav = false;
+	let showNav = true;
 
 	onMount(() => {
 		const mediaQuery = window.matchMedia('(min-width: 768px)');
 
 		const handleWidthChange = (e) => {
-			if (e.matches) {
+			if (!e.matches) {
 				showNav = false;
+			} else {
+				showNav = true;
 			}
 		};
 
@@ -74,22 +76,22 @@
 						</div>
 						<div
 							class={`${
-								showNav ? 'absolute top-0 left-0 w-1 aspect-square bg-gray-500' : 'sm:hidden'
+								showNav ? 'absolute top-0 left-0 w-1 aspect-square bg-gray-500 sm:hidden' : ''
 							}`}
 						></div>
 						<div
 							class={`${
-								showNav ? 'absolute top-0 right-0 w-1 aspect-square bg-gray-500' : 'sm:hidden'
+								showNav ? 'absolute top-0 right-0 w-1 aspect-square bg-gray-500 sm:hidden' : ''
 							}`}
 						></div>
 						<div
 							class={`${
-								showNav ? 'absolute bottom-0 left-0 w-1 aspect-square bg-gray-500' : 'sm:hidden'
+								showNav ? 'absolute bottom-0 left-0 w-1 aspect-square bg-gray-500 sm:hidden' : ''
 							}`}
 						></div>
 						<div
 							class={`${
-								showNav ? 'absolute bottom-0 right-0 w-1 aspect-square bg-gray-500' : 'sm:hidden'
+								showNav ? 'absolute bottom-0 right-0 w-1 aspect-square bg-gray-500 sm:hidden' : ''
 							}`}
 						></div>
 					</div>
