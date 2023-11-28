@@ -8,11 +8,11 @@
 
 <section>
 	<div class="text-gray-1 max-w-6xl mx-auto px-6 sm:mb-24 md:mb-48">
-		<div class="mb-20 md:mb-10">
+		<div class="mb-20 md:mb-16">
 			<img class="mb-8" src="/element-plus-detail-one.svg" alt="" />
 			<div class="flex items-center justify-between relative isolate">
-				<h2 class="text-4xl md:text-5xl font-semibold max-w-3xl">
-					Top Ecosystem Founders got their Start in Solana Hackathons
+				<h2 class="text-4xl md:text-5xl font-medium max-w-3xl">
+					Top Ecosystem Founders got their start in Solana Hackathons
 				</h2>
 				<img
 					class="absolute -z-10 -bottom-1/2 sm:bottom-1/2 sm:translate-y-1/2 right-0 w-32 sm:w-auto sm:block"

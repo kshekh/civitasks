@@ -1,11 +1,11 @@
 <footer>
 	<div
-		class="flex flex-col md:flex-row gap-10 md:gap-0 items-start justify-between max-w-6xl mx-auto text-sm px-6 py-20 md:pt-36 md:pb-20 text-gray-3"
+		class="flex flex-col md:flex-row gap-10 md:gap-0 items-start justify-between max-w-6xl mx-auto text-sm font-light px-6 py-20 md:pt-36 md:pb-20 text-gray-3"
 	>
 		<div>
 			<div class="mb-6 md:mb-20">
 				<a href="/"><img class="mb-2" src="/logo-colosseum.svg" alt="Colosseum logo" /></a>
-				<p>2023 Colosseum &copy; All Rights Reserved</p>
+				<p>2023 Colosseum Org LLC &copy; All Rights Reserved</p>
 			</div>
 			<div class="flex items-center">
 				<a href="/#"><img src="/social-x.svg" alt="X" /></a>

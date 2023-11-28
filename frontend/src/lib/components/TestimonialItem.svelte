@@ -9,8 +9,8 @@
 		<div class="flex items-center gap-3 mb-2">
 			<img src={testimonial.imageUrl} alt={testimonial.name} />
 			<div>
-				<h3 class="text-gray-1 font-medium">{testimonial.name}</h3>
-				<p class="text-gray-6 text-sm">{testimonial.position}</p>
+				<h3 class="text-gray-1 font-normal">{testimonial.name}</h3>
+				<p class="text-gray-6 text-sm font-normal">{testimonial.position}</p>
 			</div>
 		</div>
 		<p class="text-gray-4">{testimonial.message}</p>

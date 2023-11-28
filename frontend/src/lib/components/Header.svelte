@@ -26,7 +26,7 @@
 
 <header>
 	<nav>
-		<div class="font-tasa-orbiter-display font-medium relative">
+		<div class="font-tasa-orbiter-display font-base relative">
 			<div class="px-4 py-6 flex items-center justify-between">
 				<div class="flex items-center gap-10">
 					<a href="/#"
@@ -128,10 +128,10 @@
 						></div>
 					</div>
 				</div>
-				<div class="flex items-center gap-2">
+				<div class="flex items-center">
 					<Link linkTo="/#" theme="green" placement="header">Sign Up</Link>
 					<button
-						class="md:hidden"
+						class="md:hidden ml-2"
 						on:click={() => {
 							showMobileNav = !showMobileNav;
 						}}><img src={`${showMobileNav ? '/close.svg' : '/hamburger.svg'}`} alt="" /></button
