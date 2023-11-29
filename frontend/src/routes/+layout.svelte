@@ -1,13 +1,11 @@
-<script>
+<script lang="ts">
+	import { Toasts } from 'svoast';
+	import AppHeader from '$components/reusable/AppHeader.svelte';
 	import '../app.css';
-	import Header from '$lib/components/Header.svelte';
-	import Footer from '$lib/components/Footer.svelte';
+	import { toastPosition } from '$stores';
 </script>
 
-<div class="bg-gray-11 text-white">
-	<div class="max-w-[90rem] mx-auto">
-		<Header />
-		<slot />
-		<Footer />
-	</div>
-</div>
+<svelte:head><title>Solana Hyperdrive Hackathon</title></svelte:head>
+<Toasts position={$toastPosition} />
+<AppHeader />
+<slot />
