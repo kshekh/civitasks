@@ -5,37 +5,41 @@
 @layer base {
   @font-face {
     font-family: 'TASA Orbiter Display';
-    src: url('/fonts/TASAOrbiterDisplay-Regular.woff') format('woff');
+    src: url('/fonts/tasa-orbiter-display/tasa-orbiter-display-regular.woff') format('woff');
     font-weight: 400;
   }
   @font-face {
     font-family: 'TASA Orbiter Display';
-    src: url('/fonts/TASAOrbiterDisplay-Medium.woff') format('woff');
+    src: url('/fonts/tasa-orbiter-display/tasa-orbiter-display-medium.woff') format('woff');
     font-weight: 500;
   }
   @font-face {
     font-family: 'TASA Orbiter Display';
-    src: url('/fonts/TASAOrbiterDisplay-SemiBold.woff') format('woff');
+    src: url('/fonts/tasa-orbiter-display/tasa-orbiter-display-semibold.woff') format('woff');
     font-weight: 600;
   }
   @font-face {
     font-family: 'TASA Orbiter Display';
-    src: url('/fonts/TASAOrbiterDisplay-Bold.woff') format('woff');
+    src: url('/fonts/tasa-orbiter-display/tasa-orbiter-display-bold.woff') format('woff');
     font-weight: 700;
   }
   @font-face {
     font-family: 'TASA Orbiter Display';
-    src: url('/fonts/TASAOrbiterDisplay-Black.woff') format('woff');
+    src: url('/fonts/tasa-orbiter-display/tasa-orbiter-display-Black.woff') format('woff');
     font-weight: 900;
   }
   @font-face {
     font-family: 'NB Architekt';
-    src: url('/fonts/nb-architekt-light.otf') format('opentype');
+    src: url('/fonts/nb-architekt/nb-architekt-light.otf') format('opentype');
     font-weight: 300;
   }
   @font-face {
     font-family: 'NB Architekt';
-    src: url('/fonts/nb-architekt-regular.otf') format('opentype');
+    src: url('/fonts/nb-architekt/nb-architekt-regular.otf') format('opentype');
     font-weight: 400;
+  }
+
+  html {
+    @apply scroll-smooth;
   }
 }
