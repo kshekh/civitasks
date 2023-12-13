@@ -7,6 +7,10 @@
   const acceleratorFaqs = data.faqs.accelerator;
 </script>
 
+<svelte:head>
+  <title>Accelerator - Colosseum</title>
+</svelte:head>
+
 <main>
   <div class="font-tasa-orbiter-display">
     <!-- hero -->

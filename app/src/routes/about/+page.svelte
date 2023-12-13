@@ -43,6 +43,10 @@
   $: $showMemberModal ? dialog.showModal() : null;
 </script>
 
+<svelte:head>
+  <title>About - Colosseum</title>
+</svelte:head>
+
 <main>
   <div class="font-tasa-orbiter-display">
     <!-- hero -->

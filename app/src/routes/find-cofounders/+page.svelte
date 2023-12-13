@@ -6,6 +6,10 @@
   const { platformFeatures } = data;
 </script>
 
+<svelte:head>
+  <title>Find Cofounders - Colosseum</title>
+</svelte:head>
+
 <main>
   <div class="font-tasa-orbiter-display">
     <!-- hero -->

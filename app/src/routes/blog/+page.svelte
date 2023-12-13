@@ -14,6 +14,10 @@
   });
 </script>
 
+<svelte:head>
+  <title>Blog - Colosseum</title>
+</svelte:head>
+
 <div
   class="bg-grid-2 font-tasa-orbiter-display mx-auto max-w-6xl bg-top bg-no-repeat px-6 pt-6 md:px-3 md:pt-0"
 >

@@ -9,6 +9,10 @@
   const investors = data.investors;
 </script>
 
+<svelte:head>
+  <title>Hackathon - Colosseum</title>
+</svelte:head>
+
 <main>
   <div class="font-tasa-orbiter-display">
     <!-- hero -->

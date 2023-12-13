@@ -8,6 +8,10 @@
   import Testimonials from '$lib/components/Testimonials.svelte';
 </script>
 
+<svelte:head>
+  <title>Colosseum</title>
+</svelte:head>
+
 <main>
   <Hero />
   <VideoPlayer />
