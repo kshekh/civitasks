@@ -11,15 +11,15 @@
     <!-- hero -->
     <section>
       <div
-        class="bg-grid-2 before:content-illustration-10 after:content-illustration-11 relative isolate mb-4 min-h-[85vh] bg-[size:250%] bg-top bg-no-repeat px-4 pt-14 text-center leading-tight before:absolute before:left-0 before:top-0 before:-z-10 before:origin-top-left before:scale-50 after:absolute after:bottom-0 after:right-0 after:-z-10 after:origin-bottom-right after:scale-50 sm:bg-[size:200%] sm:before:scale-75 sm:after:scale-75 md:mb-16 md:bg-contain md:pt-28 md:before:scale-100 md:after:scale-100"
+        class="bg-grid-2 before:content-illustration-10 after:content-illustration-11 bg-[size:250%] sm:bg-[size:200%] relative isolate mb-3 min-h-[48.5rem] bg-top bg-no-repeat px-4 pt-14 text-center leading-tight before:absolute before:left-0 before:top-0 before:-z-10 before:origin-top-left before:scale-50 after:absolute after:bottom-0 after:right-0 after:-z-10 after:origin-bottom-right after:scale-50 sm:min-h-[40rem] sm:before:scale-75 sm:after:scale-75 md:mb-16 md:min-h-[52.5rem] md:bg-contain md:pt-28 lg:before:scale-100 lg:after:scale-100"
       >
         <h1
-          class="mx-auto mb-10 text-[40px] font-semibold uppercase text-gray-1 md:max-w-5xl md:text-[88px] md:font-bold md:leading-none"
+          class="text-gray-1 mx-auto mb-10 text-[40px] font-semibold uppercase md:max-w-5xl md:text-[88px] md:font-bold md:leading-[6rem]"
         >
           Find cofounders, jam on product ideas, and join our hackathon
         </h1>
         <div
-          class="mx-auto mb-12 max-w-xs space-y-6 font-medium text-gray-2 sm:max-w-[810px] md:text-lg"
+          class="text-gray-2 mx-auto mb-12 max-w-xs space-y-6 font-medium leading-6 sm:max-w-[810px] md:text-lg"
         >
           <p>
             Colosseum hosts 3 online hackathons per year, and each Hackathon
@@ -48,7 +48,7 @@
     <section>
       <div class="px-6 md:mb-32">
         <div class="mb-10 text-center sm:mx-auto sm:max-w-[700px] md:mb-16">
-          <h2 class="mb-4 text-[40px] font-semibold leading-tight text-gray-1">
+          <h2 class="text-gray-1 mb-4 text-[40px] font-semibold leading-tight">
             Colosseum’s platform features
           </h2>
           <p class="text-gray-2 md:text-lg">

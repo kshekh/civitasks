@@ -48,27 +48,27 @@
     <!-- hero -->
     <section>
       <div
-        class="md:bg-grid-2 mx-auto mb-16 max-w-7xl px-6 md:mb-40 md:bg-cover md:bg-top md:bg-no-repeat"
+        class="md:bg-grid-2 mx-auto mb-16 max-w-[75.5rem] px-6 md:mb-40 md:bg-cover md:bg-top md:bg-no-repeat"
       >
         <div
-          class="lg:bg-illustration-12 lg:h-px lg:min-h-[80vh] lg:bg-contain lg:bg-[position:25%] lg:bg-no-repeat"
+          class="lg:bg-illustration-12 lg:h-px lg:min-h-[52.5rem] lg:bg-[position:25%] lg:bg-no-repeat lg:pt-[10.5rem]"
         >
           <div
-            class="bg-grid-1 bg-[size:175%] bg-top bg-no-repeat sm:bg-[size:125%] md:bg-none"
+            class="bg-grid-1 bg-[size:175%] sm:bg-[size:125%] bg-top bg-no-repeat md:bg-none"
           >
-            <div class="mx-auto lg:hidden">
+            <!-- <div class="mx-auto lg:hidden">
               <img src="/images/illustrations/illustration-12.png" alt="" />
-            </div>
+            </div> -->
             <div
-              class="grid grid-cols-1 lg:h-full lg:grid-cols-2 lg:items-center lg:gap-x-10"
+              class="bg-illustration-12 bg-[size:14.8rem] sm:bg-[size:20rem] md:bg-[size:25rem] grid grid-cols-1 bg-top bg-no-repeat pt-20 lg:h-full lg:grid-cols-2 lg:items-center lg:gap-x-10 lg:bg-none lg:pt-0"
             >
               <h1
-                class="mb-4 text-5xl font-semibold uppercase text-gray-1 md:text-[88px] md:font-bold md:leading-[6rem] lg:mt-24 lg:self-start lg:ps-4"
+                class="text-gray-1 lg:ps-4 mb-10 text-5xl font-semibold uppercase leading-tight md:text-[88px] md:font-bold md:leading-[6rem] lg:self-start"
               >
                 The Growth Engine of the Crypto Economy
               </h1>
               <div
-                class="max-w-xl space-y-6 font-medium text-gray-2 md:text-lg lg:mt-24"
+                class="text-gray-2 max-w-xl space-y-6 font-medium md:text-lg"
               >
                 <p>
                   Colosseum is an organization that seamlessly combines 3
@@ -112,7 +112,7 @@
               name="plus-detail-1"
             />
             <h2
-              class="xl:before:content-plus-detail-1 relative mb-4 text-4xl font-semibold text-gray-1 xl:before:absolute xl:before:right-0 xl:before:top-0"
+              class="xl:before:content-plus-detail-1 text-gray-1 relative mb-4 text-4xl font-semibold xl:before:absolute xl:before:right-0 xl:before:top-0"
             >
               Colosseum’s Team
             </h2>
@@ -133,7 +133,7 @@
       <section>
         <div class="mx-auto mb-20 max-w-6xl px-6 md:mb-36">
           <div class="mx-auto mb-10 max-w-xs text-center md:mb-16 md:max-w-md">
-            <h2 class="mb-4 text-4xl font-semibold text-gray-1">
+            <h2 class="text-gray-1 mb-4 text-4xl font-semibold">
               Contributors, Mentors, and Founder Network
             </h2>
             <p class="text-gray-2 md:text-lg">
@@ -185,7 +185,7 @@
         class="mx-auto mb-16 flex max-w-6xl flex-col items-start gap-4 px-6 md:mb-32 lg:flex-row lg:items-center lg:justify-between"
       >
         <div>
-          <h2 class="mb-4 text-[40px] font-semibold text-gray-1">Press</h2>
+          <h2 class="text-gray-1 mb-4 text-[40px] font-semibold">Press</h2>
           <p class="text-gray-2">
             Click below to read about Colosseum in the media and access our
             brand kit.
@@ -199,11 +199,11 @@
   </div>
 
   <dialog
-    class="w-full max-w-md outline-none backdrop:bg-gray-11 backdrop:bg-opacity-75"
+    class="backdrop:bg-gray-11 w-full max-w-md outline-none backdrop:bg-opacity-75"
     bind:this={dialog}
   >
     <div
-      class="relative border border-gray-12 bg-gray-11 font-tasa-orbiter-display text-gray-2"
+      class="border-gray-12 bg-gray-11 font-tasa-orbiter-display text-gray-2 relative border"
     >
       <div class="flex items-center justify-between p-4">
         <h4 class="font-nb-architekt text-lg">// About</h4>
@@ -220,7 +220,7 @@
             alt={$personDetailsModalData.name}
           />
           <div>
-            <p class="text-2xl font-medium text-mint-1">
+            <p class="text-mint-1 text-2xl font-medium">
               {$personDetailsModalData.name}
             </p>
             <p class="text-lg">{$personDetailsModalData.designation}</p>

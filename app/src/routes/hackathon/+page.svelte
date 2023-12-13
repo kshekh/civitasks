@@ -14,16 +14,16 @@
     <!-- hero -->
     <section>
       <div
-        class="bg-illustration-6 mx-auto mb-10 flex min-h-[80vh] max-w-6xl flex-col justify-end bg-contain bg-top bg-no-repeat px-4 text-center md:mb-8 md:justify-center"
+        class="bg-illustration-6 bg-[size:22rem] sm:bg-[size:35rem] mx-auto mb-10 flex min-h-[45rem] max-w-6xl flex-col justify-center bg-[position:50%_-1rem] bg-no-repeat px-4 pt-40 text-center md:mb-8 md:min-h-[50rem] md:justify-center md:bg-contain md:bg-top md:pt-0"
       >
         <div>
           <h1
-            class="mb-10 text-5xl font-semibold uppercase text-gray-1 md:mb-2 md:text-7xl md:font-bold"
+            class="text-gray-1 mb-10 text-5xl font-semibold uppercase leading-tight md:mb-2 md:text-[88px] md:font-bold md:leading-[6rem]"
           >
             Where Crypto Founders Start their Journey
           </h1>
           <p
-            class="mb-10 text-base font-medium text-gray-2 md:mx-auto md:max-w-4xl md:text-lg"
+            class="text-gray-2 mb-10 text-base font-medium md:mx-auto md:max-w-4xl md:text-lg"
           >
             Colosseum Hackathons are not traditional hackathons. They are
             global, online competitions where the most talented developers and
@@ -46,15 +46,17 @@
     <!-- investors -->
     <section>
       <div class="mx-auto mb-10 max-w-6xl px-6 text-center md:mb-36">
-        <div class="relative mb-8 md:mx-auto md:mb-16 md:max-w-2xl">
+        <div class="relative mb-8 md:mx-auto md:mb-16 md:max-w-[680px]">
           <Element
-            class="static mb-8 ms-auto md:-bottom-10 md:-right-60 xl:absolute"
+            class="ms-auto static mb-8 md:-bottom-10 md:-right-60 xl:absolute"
             name="plus-detail-2"
           />
-          <h2 class="mb-4 text-4xl font-semibold text-gray-1 md:text-6xl">
+          <h2
+            class="text-gray-1 mb-4 text-4xl font-semibold md:text-[64px] md:leading-[4.5rem]"
+          >
             Over $650 million Raised in the Past 2 Years
           </h2>
-          <p class="font-medium text-gray-2 md:mx-auto md:max-w-lg md:text-lg">
+          <p class="text-gray-2 font-medium md:mx-auto md:max-w-lg md:text-lg">
             50,000+ participants from across the world have competed in Solana
             hackathons, built thousands of crypto products, and raised funding
             from the best investors in crypto.
@@ -81,15 +83,15 @@
     <!-- call to action -->
     <section>
       <div
-        class="mx-auto mb-32 grid max-w-7xl items-center px-6 font-tasa-orbiter-display text-lg md:mb-64 md:grid-cols-2"
+        class="font-tasa-orbiter-display mx-auto mb-32 grid max-w-7xl items-center px-6 text-lg md:mb-64 md:grid-cols-2"
       >
         <div
           class="bg-illustration-3 relative z-10 flex flex-col gap-10 bg-contain bg-center bg-no-repeat pt-64 md:bg-none md:pt-0"
         >
-          <h2 class=" text-5xl font-semibold uppercase text-gray-1 md:text-8xl">
+          <h2 class=" text-gray-1 text-5xl font-semibold uppercase md:text-8xl">
             Join Colosseum's Community
           </h2>
-          <p class="max-w-xl text-base font-medium text-gray-2 md:text-lg">
+          <p class="text-gray-2 max-w-xl text-base font-medium md:text-lg">
             To grow the crypto economy, Colosseum runs 3 online hackathons, each
             followed by an Accelerator cohort. Many builders have participated
             and iterated in multiple Solana hackathons before winning. Sign up
@@ -124,10 +126,10 @@
           name="globe"
         />
         <div class="md:mb-4 md:grid md:grid-cols-2 md:gap-x-36">
-          <h2 class="mb-8 text-4xl font-semibold text-gray-1 md:text-6xl">
+          <h2 class="text-gray-1 mb-8 text-4xl font-semibold md:text-6xl">
             Interested in Sponsoring the Hackathon?
           </h2>
-          <p class="mb-6 font-medium text-gray-2 md:text-lg">
+          <p class="text-gray-2 mb-6 font-medium md:text-lg">
             Colosseum collaborates with the Solana community to ensure the
             entire ecosystem is involved in our Hackathons. We work with top
             crypto investors and companies who volunteer to judge and
