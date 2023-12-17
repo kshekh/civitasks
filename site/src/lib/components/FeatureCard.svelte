@@ -4,16 +4,12 @@
 
 {#if feature}
   <li
-    class="grid-row-2 relative grid rounded-2xl border border-gray-7 p-7 before:absolute before:inset-1 before:rounded-2xl before:border before:border-gray-8"
+    class="border-gray-7 before:border-gray-8 relative isolate flex h-[21.75rem] flex-col justify-between rounded-2xl border px-7 pt-5 pb-6 before:absolute before:inset-1 before:-z-10 before:rounded-2xl before:border"
   >
-    <div class="mb-3 flex min-h-[8rem] items-center">
-      <img class="w-full" src={feature.imageUrl} alt="" />
-    </div>
-    <div class="flex items-end">
-      <div>
-        <h3 class="text-xl font-medium text-mint-1">{feature.name}</h3>
-        <p class="text-gray-2">{feature.description}</p>
-      </div>
+    <img class="w-full" src={feature.imageUrl} alt="" />
+    <div>
+      <h3 class="text-mint-1 mb-2 text-xl font-medium">{feature.name}</h3>
+      <p class="text-gray-2">{feature.description}</p>
     </div>
   </li>
 {/if}
