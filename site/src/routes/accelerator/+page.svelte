@@ -30,7 +30,7 @@
             class="grid grid-cols-1 lg:h-full lg:grid-cols-2 lg:items-center"
           >
             <h1
-              class="text-gray-1 lg:ps-4 mb-4 text-5xl leading-[3.5rem] font-semibold uppercase md:text-[5.5rem] md:font-bold md:leading-[6rem] lg:self-start"
+              class="text-gray-1 lg:ps-4 mb-4 text-5xl font-semibold uppercase leading-[3.5rem] md:text-[5.5rem] md:font-bold md:leading-[6rem] lg:self-start"
             >
               From Devnet to Mainnet
             </h1>
@@ -91,7 +91,7 @@
           </div>
         </div>
         <div
-          class="bg-grid-1 bg-[size:175%] sm:bg-[size:100%] md:bg-[size:175%] lg:ms-auto lg:bg-[size:125%] flex h-full flex-col gap-20 bg-[50%_70%] text-center lg:w-fit lg:flex-row lg:items-center lg:gap-16"
+          class="bg-grid-1 bg-[size:175%] sm:bg-[size:100%] md:bg-[size:175%] lg:ms-auto lg:bg-[size:125%] bg-[50%_70%] flex h-full flex-col gap-20 text-center lg:w-fit lg:flex-row lg:items-center lg:gap-16"
         >
           <div class="mx-auto max-w-[200px] md:translate-y-24 lg:translate-y-0">
             <div
@@ -126,7 +126,7 @@
         class="grid grid-cols-1 gap-16 md:grid-cols-2 md:items-center md:gap-8"
       >
         <div class="md:order-last">
-          <Icon class="mb-8" name="bank" />
+          <Icon class="mb-8" name="ticket" />
           <h2
             class="text-gray-1 mb-8 text-3xl font-semibold md:text-[2.5rem] md:leading-[3rem]"
           >
