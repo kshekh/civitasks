@@ -66,12 +66,12 @@
             class="bg-illustration-12 bg-[size:14.8rem] sm:bg-[size:20rem] md:bg-[size:25rem] grid grid-cols-1 bg-top bg-no-repeat pt-20 lg:h-full lg:grid-cols-2 lg:items-center lg:gap-x-20 lg:bg-none lg:pt-0"
           >
             <h1
-              class="text-gray-1 lg:ps-4 mb-10 text-5xl leading-[3.5rem] font-semibold uppercase md:text-[5.5rem] md:font-bold md:leading-[6rem] lg:self-start"
+              class="text-gray-1 lg:ps-4 mb-10 text-5xl font-semibold uppercase leading-[3.5rem] md:text-[5.5rem] md:font-bold md:leading-[6rem] lg:self-start"
             >
               The Growth Engine of the Crypto Economy
             </h1>
             <div
-              class="text-gray-2 max-w-xl space-y-6 font-normal text-base md:text-lg"
+              class="text-gray-2 max-w-xl space-y-6 text-base font-normal md:text-lg"
             >
               <p>
                 Colosseum is an organization that seamlessly combines 3 pillars:
@@ -112,7 +112,7 @@
         <div class="mb-10 text-center md:mb-16">
           <Element class="mx-auto mb-16 w-fit xl:hidden" name="plus-detail-1" />
           <h2
-            class="xl:before:content-plus-detail-1 text-gray-1 relative mb-4 text-[2.5rem] leading-[3rem] font-semibold xl:before:absolute xl:before:right-0 xl:before:top-0"
+            class="xl:before:content-plus-detail-1 text-gray-1 relative mb-4 text-[2.5rem] font-semibold leading-[3rem] xl:before:absolute xl:before:right-0 xl:before:top-0"
           >
             Colosseum’s Team
           </h2>
@@ -134,7 +134,7 @@
       <div class="mx-auto mb-20 max-w-6xl px-6 md:mb-36">
         <div class="mx-auto mb-10 max-w-xs text-center md:mb-16 md:max-w-md">
           <h2
-            class="text-gray-1 mb-4 text-[2.5rem] leading-[3rem] font-semibold"
+            class="text-gray-1 mb-4 text-[2.5rem] font-semibold leading-[3rem]"
           >
             Contributors, Mentors, and Founder Network
           </h2>
@@ -158,11 +158,11 @@
       <div class="mb-10 md:mb-11">
         <Element class="mb-9" name="plus-detail-1" />
         <div class="relative isolate flex items-center justify-between">
-          <h2 class="max-w-3xl font-semibold text-[2.5rem] leading-[3rem]">
+          <h2 class="max-w-3xl text-[2.5rem] font-semibold leading-[3rem]">
             Colosseum is Backed by the Best
           </h2>
           <Element
-            class="hidden md:absolute mb-8 -bottom-1/2 right-0 -z-10 w-32 sm:bottom-1/2 sm:block sm:w-auto sm:translate-y-1/2"
+            class="-bottom-1/2 right-0 -z-10 mb-8 hidden w-32 sm:bottom-1/2 sm:block sm:w-auto sm:translate-y-1/2 md:absolute"
             name="globe"
           />
         </div>
@@ -187,7 +187,7 @@
       class="mx-auto mb-16 flex max-w-6xl flex-col items-start gap-4 px-6 md:mb-32 lg:flex-row lg:items-center lg:justify-between"
     >
       <div>
-        <h2 class="text-gray-1 mb-4 text-[2.5rem] leading-[3rem] font-semibold">
+        <h2 class="text-gray-1 mb-4 text-[2.5rem] font-semibold leading-[3rem]">
           Press
         </h2>
         <p class="text-gray-2 font-normal">
@@ -209,9 +209,11 @@
   <div
     class="border-gray-12 bg-gray-11 font-tasa-orbiter-display text-gray-2 relative border"
   >
-    <div class="flex items-center justify-between p-4">
+    <div
+      class="bg-gray-10 border-b-gray-12 flex items-center justify-between border-b px-4 py-3"
+    >
       <h4 class="font-nb-architekt text-lg">// About</h4>
-      <span class="hidden opacity-25 md:block">░░░░░░░░░░░░░░░░░░</span>
+      <Element class="hidden sm:block" name="pattern" />
       <button on:click={closeDialog}>
         <Icon name="close" />
       </button>
