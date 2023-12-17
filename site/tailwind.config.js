@@ -35,6 +35,7 @@ export default {
         'grid-2': 'url("/images/elements/grid-2.png")',
         'illustration-3': 'url("/images/illustrations/illustration-3.png")',
         'illustration-6': 'url("/images/illustrations/illustration-6.png")',
+        'illustration-6-m': 'url("/images/illustrations/illustration-6-m.png")',
         'illustration-7': 'url("/images/illustrations/illustration-7.png")',
         'illustration-12': 'url("/images/illustrations/illustration-12.png")',
       },

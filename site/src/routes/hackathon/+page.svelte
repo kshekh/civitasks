@@ -17,7 +17,7 @@
   <!-- hero -->
   <section>
     <div
-      class="bg-illustration-6 bg-[size:22rem] sm:bg-[size:35rem] mx-auto mb-10 flex min-h-[45rem] max-w-6xl flex-col justify-center bg-[position:50%_-1rem] bg-no-repeat px-4 pt-40 text-center md:mb-8 md:min-h-[50rem] md:justify-center md:bg-contain md:bg-top md:pt-0"
+      class="bg-illustration-6-m sm:bg-illustration-6 bg-[size:22rem] sm:bg-[size:35rem] mx-auto mb-10 flex min-h-[45rem] max-w-6xl flex-col justify-center bg-[position:50%_-1rem] bg-no-repeat px-4 pt-40 text-center md:mb-8 md:min-h-[50rem] md:justify-center md:bg-contain md:bg-top md:pt-0"
     >
       <div>
         <h1
