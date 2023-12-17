@@ -56,11 +56,11 @@
           name="plus-detail-2"
         />
         <h2
-          class="text-gray-1 mb-4 text-[2.5rem] leading-[3rem] font-semibold md:text-[4rem] md:leading-[4.5rem]"
+          class="text-gray-1 mb-4 text-[2.5rem] font-semibold leading-[3rem] md:text-[4rem] md:leading-[4.5rem]"
         >
           Over $650 million Raised in the Past 2 Years
         </h2>
-        <p class="text-gray-2 md:mx-auto md:max-w-lg text-base md:text-lg">
+        <p class="text-gray-2 text-base md:mx-auto md:max-w-lg md:text-lg">
           50,000+ participants from across the world have competed in Solana
           hackathons, built thousands of crypto products, and raised funding
           from the best investors in crypto.
@@ -87,30 +87,34 @@
   <!-- call to action -->
   <section>
     <div
-      class="font-tasa-orbiter-display mx-auto mb-20 grid max-w-7xl items-center px-6 text-lg md:mb-[11rem] md:grid-cols-2"
+      class="font-tasa-orbiter-display md:bg-grid-1 md:bg-[size:66%] mx-auto mb-20 grid max-w-7xl items-center px-6 text-lg md:mb-[11rem] md:grid-cols-2 md:bg-[position:25%_150%] md:bg-no-repeat"
     >
       <div
-        class="bg-illustration-3 relative z-10 flex flex-col gap-10 bg-contain md:bg-center bg-no-repeat pt-[19.5rem] mt-12 md:mt-0 md:bg-none md:pt-0"
+        class="bg-illustration-3 relative z-10 mt-12 bg-contain bg-no-repeat pt-[19.5rem] md:mt-0 md:bg-none md:bg-center md:pt-0"
       >
-        <h2
-          class=" text-gray-1 text-5xl font-semibold leading-[3.5rem] uppercase md:text-[5.5rem] md:leading-[6rem]"
+        <div
+          class="bg-grid-1 bg-[size:40rem] flex flex-col gap-10 bg-[position:50%_3rem] bg-no-repeat md:bg-none"
         >
-          Join Colosseum's Community
-        </h2>
-        <p class="text-gray-2 max-w-xl text-base md:text-lg">
-          To grow the crypto economy, Colosseum runs 3 online hackathons, each
-          followed by an Accelerator cohort. Many builders have participated in
-          multiple Solana hackathons before winning. Sign up for a Colosseum
-          account, create a builder profile, search the directory to find
-          co-founders, and jam on product ideas in the forum before the next
-          Hackathon.
-        </p>
-        <div class="flex items-center gap-4">
-          <div>
-            <Link linkTo="#/" theme="green" placement="">Sign Up</Link>
-          </div>
-          <div>
-            <Link linkTo="#/" theme="" placement="">Sign In</Link>
+          <h2
+            class=" text-gray-1 text-5xl font-semibold uppercase leading-[3.5rem] md:text-[5.5rem] md:leading-[6rem]"
+          >
+            Join Colosseum's Community
+          </h2>
+          <p class="text-gray-2 max-w-xl text-base md:text-lg">
+            To grow the crypto economy, Colosseum runs 3 online hackathons, each
+            followed by an Accelerator cohort. Many builders have participated
+            in multiple Solana hackathons before winning. Sign up for a
+            Colosseum account, create a builder profile, search the directory to
+            find co-founders, and jam on product ideas in the forum before the
+            next Hackathon.
+          </p>
+          <div class="flex items-center gap-4">
+            <div>
+              <Link linkTo="#/" theme="green" placement="">Sign Up</Link>
+            </div>
+            <div>
+              <Link linkTo="#/" theme="" placement="">Sign In</Link>
+            </div>
           </div>
         </div>
       </div>
@@ -146,7 +150,7 @@
           provide builders the smoothest experience possible.
         </p>
       </div>
-      <div class="md:grid md:grid-cols-2 md:gap-x-36 md:-mt-6">
+      <div class="md:-mt-6 md:grid md:grid-cols-2 md:gap-x-36">
         <div class="md:col-start-2">
           <Link linkTo="#/" theme="gray" placement="">Get in touch</Link>
         </div>
