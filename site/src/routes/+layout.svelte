@@ -11,7 +11,9 @@
 <div class="bg-gray-11 text-white">
   <div class="mx-auto max-w-[90rem]">
     <Header />
-    <slot />
+    <main>
+      <slot />
+    </main>
     <Footer />
   </div>
 </div>

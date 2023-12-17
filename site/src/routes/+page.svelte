@@ -12,7 +12,7 @@
   <title>Colosseum</title>
 </svelte:head>
 
-<main>
+<div>
   <Hero />
   <VideoPlayer />
   <CountdownTimer />
@@ -20,4 +20,4 @@
   <Ecosystems />
   <CallToAction />
   <Testimonials />
-</main>
+</div>
